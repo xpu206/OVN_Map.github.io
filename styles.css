@@ -164,6 +164,18 @@ main {
   gap: 20px;
 }
 
+.overview-image {
+  border-radius: 22px;
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  background: rgba(16, 20, 37, 0.6);
+}
+
+.overview-image img {
+  width: 100%;
+  display: block;
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--stroke);
