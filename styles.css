@@ -169,6 +169,8 @@ main {
   border: 1px solid var(--stroke);
   overflow: hidden;
   background: rgba(16, 20, 37, 0.6);
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .overview-image img {
