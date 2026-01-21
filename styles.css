@@ -178,6 +178,12 @@ main {
   display: block;
 }
 
+.overview-note {
+  color: rgba(238, 241, 246, 0.78);
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--stroke);

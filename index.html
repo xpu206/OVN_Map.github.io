@@ -44,6 +44,16 @@
       <div class="overview-image">
         <img src="overview.png" alt="OVN-Map overview diagram" />
       </div>
+      <p class="overview-note">
+        OVN-Map system overview. The system takes only monocular RGB and user language instructions as input, without depth
+        sensing, external odometry, or ground-truth poses. Keyframes are processed by the Open-vocabulary Observations
+        module to produce instance masks and phrases, which are encoded as semantic embeddings. In parallel, the
+        geometric branch performs incremental mapping, and its estimates are fused with the semantic branch via
+        cross-time fusion. The Semantic Fusion module writes cross-temporal semantic statistics into the TSDF voxel grid,
+        forming a TSDF-centric semantic map that is further organized into a hierarchical floor-room-object scene
+        structure. Given a language instruction, an LLM extracts room and object constraints and the system localizes the
+        target within the hierarchical map for navigation.
+      </p>
       <div class="cards">
         <article class="card">
           <h3>Incremental 3D</h3>
