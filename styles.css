@@ -244,6 +244,32 @@ main {
   color: rgba(238, 241, 246, 0.75);
 }
 
+.ply-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.ply-card {
+  background: rgba(16, 20, 37, 0.65);
+  border-radius: 20px;
+  border: 1px solid var(--stroke);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 220px auto;
+}
+
+.ply-canvas {
+  height: 220px;
+  width: 100%;
+}
+
+.ply-caption {
+  padding: 14px 18px 18px;
+  font-weight: 600;
+  color: rgba(238, 241, 246, 0.8);
+}
+
 .resource-list {
   display: grid;
   gap: 14px;
